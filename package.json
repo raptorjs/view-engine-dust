@@ -10,10 +10,8 @@
   "scripts": {
   },
   "keywords": [
-    "view",
-    "engine",
-    "template",
-    "rendering"
+    "view-engine",
+    "dust"
   ],
   "devDependencies": {
     "mocha": "~1.15.1",
