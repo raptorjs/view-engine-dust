@@ -1,0 +1,33 @@
+{
+  "name": "view-engine-dust",
+  "version": "0.1.0-beta",
+  "description": "Dust templates view engine",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patrick-steele-idem/view-engine-dust.git"
+  },
+  "main": "lib/view-engine-dust.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "view",
+    "engine",
+    "template",
+    "rendering"
+  ],
+  "devDependencies": {
+    "mocha": "~1.15.1",
+    "chai": "~1.8.1",
+    "jshint": "~2.3.0",
+    "dustjs-linkedin": "^2.3.4"
+  },
+  "author": "Patrick Steele-Idem <pnidem@gmail.com>",
+  "license": "Apache License v2.0",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "dustjs-linkedin": "^2.3.4"
+  }
+}
