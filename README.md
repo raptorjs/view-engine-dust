@@ -15,8 +15,7 @@ Enable the Dust view engine:
 require('view-engine').configure({
     engines: {
         'view-engine-dust': {
-            extensions: ['dust'],
-            templatesDir: process.cwd() // Optional
+            extensions: ['dust']
         }
     }
 })
@@ -25,7 +24,8 @@ require('view-engine').configure({
 The Raptor Templates view engine is now ready to be used elsewhere in your code:
 
 ```javascript
-var template = require('view-engine').load('hello.dust');
+var templatePath = require.resolve('./hello.dust');
+var template = require('view-engine').load(templatePath);
 
 // Callback-style
 template.render({ name: 'John'}, function(err, data) {
@@ -45,4 +45,4 @@ template.stream({ name: 'John'}).pipe(out);
 template.render({ name: 'John'}, context);
 ```
 
-See the documentation for the [view engine](https://github.com/patrick-steele-idem/view-engine) module for more information.
+See the documentation for the [view-engine](https://github.com/patrick-steele-idem/view-engine) module for more information.
