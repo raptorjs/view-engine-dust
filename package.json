@@ -1,32 +1,32 @@
 {
-  "name": "view-engine-dust",
-  "description": "Dust templates view engine",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/patrick-steele-idem/view-engine-dust.git"
-  },
-  "main": "lib/view-engine-dust.js",
-  "scripts": {},
-  "keywords": [
-    "view-engine",
-    "dust"
-  ],
-  "devDependencies": {
-    "mocha": "~1.15.1",
-    "chai": "~1.8.1",
-    "jshint": "~2.3.0",
-    "dustjs-linkedin": "^2.4.0"
-  },
-  "author": "Patrick Steele-Idem <pnidem@gmail.com>",
-  "license": "Apache License v2.0",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
-  "dependencies": {
-    "dustc-commonjs": "0.1.0-beta"
-  },
-  "browser": {
-    "./lib/onLoad.js": "./lib/onLoad-browser.js"
-  },
-  "version": "0.1.5-beta"
+    "name": "view-engine-dust",
+    "description": "Dust templates view engine",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/patrick-steele-idem/view-engine-dust.git"
+    },
+    "main": "lib/view-engine-dust.js",
+    "scripts": {},
+    "keywords": [
+        "view-engine",
+        "dust"
+    ],
+    "devDependencies": {
+        "mocha": "~1.15.1",
+        "chai": "~1.8.1",
+        "jshint": "~2.3.0",
+        "dustjs-linkedin": "^2.4.0"
+    },
+    "author": "Patrick Steele-Idem <pnidem@gmail.com>",
+    "license": "Apache License v2.0",
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/"
+    },
+    "dependencies": {
+        "dustc-commonjs": "0.1.0-beta"
+    },
+    "browser": {
+        "./lib/onLoad.js": "./lib/onLoad-browser.js"
+    },
+    "version": "0.1.6-beta"
 }
