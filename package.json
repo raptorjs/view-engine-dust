@@ -28,5 +28,5 @@
     "browser": {
         "./lib/onLoad.js": "./lib/onLoad-browser.js"
     },
-    "version": "0.1.6-beta"
+    "version": "0.1.7-beta"
 }
