@@ -21,7 +21,7 @@ require('view-engine').configure({
 })
 ```
 
-The Raptor Templates view engine is now ready to be used elsewhere in your code:
+The Marko view engine is now ready to be used elsewhere in your code:
 
 ```javascript
 var templatePath = require.resolve('./hello.dust');

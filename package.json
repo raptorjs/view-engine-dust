@@ -23,10 +23,10 @@
         "registry": "https://registry.npmjs.org/"
     },
     "dependencies": {
-        "dustc-commonjs": "0.1.0-beta"
+        "dustc-commonjs": "1.0.0"
     },
     "browser": {
         "./lib/onLoad.js": "./lib/onLoad-browser.js"
     },
-    "version": "0.1.7-beta"
+    "version": "1.0.0"
 }
